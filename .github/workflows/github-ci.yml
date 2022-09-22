@@ -1,11 +1,12 @@
 name: Application CI
-on:
+
+on: 
   workflow_dispatch:
   push:
-    branches: [ "*" ]
+    branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-
+        
 jobs:
     pipeline:
         name: hockeyhero pipeline
