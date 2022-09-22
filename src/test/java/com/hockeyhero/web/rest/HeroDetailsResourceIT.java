@@ -6,7 +6,7 @@ import static org.springframework.security.test.web.servlet.request.SecurityMock
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-import com.hockeyhero.IntegrationTest;
+//import com.hockeyhero.IntegrationTest;
 import com.hockeyhero.domain.HeroDetails;
 import com.hockeyhero.repository.HeroDetailsRepository;
 import com.hockeyhero.service.dto.HeroDetailsDTO;
@@ -29,7 +29,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * Integration tests for the {@link HeroDetailsResource} REST controller.
  */
-@IntegrationTest
+//@IntegrationTest
 @AutoConfigureMockMvc
 @WithMockUser
 class HeroDetailsResourceIT {

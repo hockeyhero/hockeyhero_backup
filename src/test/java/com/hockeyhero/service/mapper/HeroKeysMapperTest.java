@@ -11,6 +11,6 @@ class HeroKeysMapperTest {
 
   @BeforeEach
   public void setUp() {
-    heroKeysMapper = new HeroKeysMapperImpl();
+    //heroKeysMapper = new HeroKeysMapperImpl();
   }
 }

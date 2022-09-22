@@ -11,6 +11,6 @@ class HeroDetailsMapperTest {
 
   @BeforeEach
   public void setUp() {
-    heroDetailsMapper = new HeroDetailsMapperImpl();
+    //heroDetailsMapper = new HeroDetailsMapperImpl();
   }
 }
